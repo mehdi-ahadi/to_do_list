@@ -6,7 +6,12 @@ import AddTodo from './components/AddTodo';
 
 function App() {
 
-  const [todos, setTodos] = useState([])
+  const [todos, setTodos] = useState([]);
+
+  const handleDeleteTodo = (todoId) => {
+    const _todos = [...]
+  }
+
   return (
     <div id="App">
       <h1>To Do List</h1>
