@@ -8,3 +8,12 @@ body{
   overflow-x: hidden;
  font-family: "vazir" !important;
 }
+.flexCenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+input{
+  border: none;
+  outline: none;
+}

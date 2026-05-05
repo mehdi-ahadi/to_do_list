@@ -1,5 +1,9 @@
+/* @import "tailwindcss"; */
 #App{
-    border: 1px solid red;
+    min-height: 100vh;
+    padding: 10px 30px;
+    border: 2px solid red;
+    background: rgb(103, 107, 116);
 }
 #App h1{
     text-align: center;
@@ -8,5 +12,6 @@
 }
 .todo-parent{
     min-height: 200px;
-    background: gray;
+    display: flex;
+    /* background: rgb(232, 215, 215); */
 }

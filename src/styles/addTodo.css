@@ -1,0 +1,28 @@
+.add-todo{
+    width: 30%;
+    border: 1px solid black;
+}
+.add-todo h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.add-todo .todo-form .text-field{
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
+}
+.add-todo .todo-form .text-field input{
+    width: 60%;
+    height: 26px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn-submit{
+  width: 60%;
+  height: 26px;
+  border: none;
+  outline: none;
+  background: blue;
+  color: white;
+  padding: 11px;
+  border-radius: 5px;
+}
